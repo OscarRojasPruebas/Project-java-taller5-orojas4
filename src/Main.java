@@ -7,10 +7,10 @@ public class Main {
         System.out.println("=             CALCULADORA TALLER 05              =");
         System.out.println("==================================================");
 
-        System.out.println("Ingresar el primer número:");
+        System.out.println("Ingrese el primer número:");
         double num1 = scanner.nextDouble();
 
-        System.out.println("Ingresar el segundo número:");
+        System.out.println("Ingrese el segundo número:");
         double num2 = scanner.nextDouble();
 
         Calculadora calculadora = new Calculadora(num1, num2);//Se crea instancia de la clase Calculadora
